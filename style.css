@@ -1,0 +1,33 @@
+#album-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+h1 {
+  color: #e268c8;
+}
+.album-box {
+  background-color: #ffe6f2; 
+  border: 1px solid #ff99cc;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.album-box h3 {
+  color: #d63384; 
+  margin-bottom: 8px;
+}
+
+.album-box p {
+  margin: 4px 0;
+}
+
+.album-box a {
+  color: #d63384;
+  text-decoration: none;
+}
+
+.album-box a:hover {
+  text-decoration: underline;
+}
